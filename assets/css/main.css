@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Sedgwick Ave Display", cursive;
+  /* overflow: hidden; */
+}
+
+/* LOGIN PAGE STYLES */
+.content_wrapper {
+  width: 50%;
+  border-radius: 2rem;
+  border: 1px solid #cde;
+  margin: auto;
+  margin-top: 5rem;
+  padding-top: 1.25rem;
+  background-color: rgba(168, 230, 209, 0.5);
+  /* opacity: 0.6; */
+}
+
+.credential_container {
+  margin: 1rem;
+  width: 60%;
+}
+.form_group {
+  padding: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form_group input {
+  font-size: 1.25rem;
+  width: 13rem;
+  height: 2rem;
+  border-radius: 0.35rem;
+  padding: 0 0.12rem;
+}
+
+.message {
+  background-color: rgb(202, 116, 116);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+  /* display: flex;
+    justify-content: space-between; */
+  height: 2rem;
+}
+.close {
+  font-family: inherit;
+  position: absolute;
+  right: 5px;
+  font-size: large;
+}
+
+.form_group input[type="submit"] {
+  width: 5rem;
+  border: none;
+  background-color: rgb(136, 223, 194);
+}
+
+.form_group input,
+label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lock {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-image: url("../images/bkg2.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  /* background-color: blue; */
+  height: 92vh;
+}
+
+.logo,
+.biz_name {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.brand_name {
+  font-family: "Orbitron", sans-serif;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+}
+
+.contents {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contents ul {
+  list-style-type: none;
+}
+
+.contents ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.logo img {
+  width: auto;
+  height: 100px;
+}
+
+/* @media screen and (width: 355px) {
+    .container {
+        width: 100%;
+    }
+    .brand_name {
+        font-size: 10px;
+        color: rgb(23, 27, 36);
+    }
+    .contents ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+} */
+
+@media screen and (max-width: 648px) {
+  .lock {
+    font-size: 2rem;
+  }
+
+  .content_wrapper {
+    width: 100%;
+    border-radius: 2rem;
+    border: 1px solid #cde;
+    margin: auto;
+    margin-top: 5rem;
+    padding-top: 1.25rem;
+    background-color: rgba(168, 230, 209, 0.5);
+  }
+
+  .form_group {
+    padding: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .brand_name {
+    font-size: 28px;
+    color: rgb(23, 27, 36);
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .footer {
+    margin-top: -50px;
+  }
+  .contents ul {
+    display: flex;
+    background-color: rgba(1, 1, 53, 0.295);
+    justify-content: space-between;
+    padding: 0 3px;
+    /* opacity: .3; */
+  }
+
+  .contents ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
