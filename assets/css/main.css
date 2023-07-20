@@ -32,28 +32,19 @@
 }
 .form_group input {
   font-size: 1.25rem;
-  width: 13rem;
+  width: 17rem;
   height: 2rem;
   border-radius: 0.35rem;
   padding: 0 0.12rem;
 }
 
 .message {
-  background-color: rgb(202, 116, 116);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   width: 100%;
   margin-top: 2rem;
-  position: relative;
-  /* display: flex;
-    justify-content: space-between; */
   height: 2rem;
-}
-.close {
-  font-family: inherit;
-  position: absolute;
-  right: 5px;
-  font-size: large;
+  display: none;
 }
 
 .form_group input[type="submit"] {
@@ -84,7 +75,7 @@ label {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
   /* background-color: blue; */
   height: 92vh;

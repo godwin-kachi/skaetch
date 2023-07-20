@@ -13,31 +13,33 @@
 
     <div class="wrapper">
         <div class="container">
-            <div class="message">ddds <span class="close">&times;</span></div>
+            <div class="message"></div>
             <div class="content_wrapper">
                 
                 <div class="lock">
                     <i class="fa-solid fa-lock fa-beat"></i>
                 </div>
-                <div class="credential_container">
-                    <div class="form_group">
-                        <label for="user__name">User Name</label>
-                        <input type="text" name="user__name" placeholder="User Name" id="user__name" required>
-                    </div>
-                    <div class="form_group">
-                        <label for="user__password">Password</label>
-                        <input type="password" name="user__password" id="user__password" required>
-                    </div>
-                    <div class="form_group">
-                        <input type="submit" value="Login" id="__login">
-                    </div>
-                </div>
+                <form action="" method="post" id="form1" class="form1" name="form">
+                    <!-- <div class="credential_container"> -->
+                        <div class="form_group">
+                            <label for="user__name">User Name</label>
+                            <input type="text" name="user__name" placeholder="User Name" id="user__name" required>
+                        </div>
+                        <div class="form_group">
+                            <label for="user__password">Password</label>
+                            <input type="password" name="user__password" id="user__password" required>
+                        </div>
+                        <div class="form_group">
+                            <input type="submit" value="Login" id="__login">
+                        </div>
+                    <!-- </div> -->
+                </form>
 
             </div>
         </div>
     </div>
     
 
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/login.js"></script>
 </body>
 </html>
